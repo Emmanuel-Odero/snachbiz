@@ -67,9 +67,9 @@ INSERT INTO `user` (`userid`, `name`, `mobile`, `email`, `password`) VALUES
 (1, '', '', '', ''),
 (2, 'a', '8788889996', 'an@gmail.com', '123456'),
 (3, 'b', '8765456789', 'bb@gamil.com', '123456'),
-(4, 'anshu', '7756889098', 'anshu@gamil.com', '123456'),
-(5, 'anshu', '7745990607', 'anshu@gmail.com', '111111'),
-(6, 'anshu', '7745990607', 'anshu@gmail.com', '111111');
+(4, 'mary', '7756889098', 'mary@gamil.com', '123456'),
+(5, 'sinaida', '7745990607', 'sinaida@gmail.com', '111111'),
+(6, 'dorcas', '7745990607', 'dorcas@gmail.com', '111111');
 
 --
 -- Indexes for dumped tables
