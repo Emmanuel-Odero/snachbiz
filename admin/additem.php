@@ -49,12 +49,12 @@ else
 <div class="col-xs-6"> 
 <select class="form-control" name="category">
 <option>Select Category</option>
-<option value="FruitVegetables">Fruits & Vegetables</option>
-<option value="FoodgrainsoilMasala">Foodgrains, oil & Masala</option>
-<option value="BakerycakesDairy">Bakery, cakes & Dairy</option>
-<option value="SnacksBrandedFoods">Snacks & Branded Foods</option>
+<option value="Fruits">Fruits</option>
+<option value="Cereals">Cereals</option>
+<option value="Dairy">Dairy</option>
+<option value="Vegetables">Vegetables</option>
 <option value="Beverage">Beverage</option>
-<option value="Cleaninghousehold">Cleaning & household</option>
+<option value="AnimalFeeds">AnimalFeeds</option>
 </select>
 </div>
 </div>

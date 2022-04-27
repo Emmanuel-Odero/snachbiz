@@ -135,12 +135,12 @@ $('.navbar-light .dmenu').hover(function () {
   <div class="form-group ">
 <select class="form-control" name="category">
 <option>Select</option>
-<option value="FruitVegetables">Fruits & Vegetables</option>
-<option value="FoodgrainsoilMasala">Foodgrains, oil & Masala</option>
-<option value="BakerycakesDairy">Bakery, cakes & Dairy</option>
-<option value="SnacksBrandedFoods">Snacks & Branded Foods</option>
+<option value="Fruits">Fruits</option>
+<option value="Cereals">Cereals</option>
+<option value="Dairy"> Dairy</option>
+<option value="Vegetables">Vegetables</option>
 <option value="Beverage">Beverage</option>
-<option value="Cleaninghousehold">Cleaning & household</option>
+<option value="AnimalFeeds">AnimalFeeds</option>
 </select>
 
 
@@ -183,7 +183,7 @@ $('.navbar-light .dmenu').hover(function () {
                     <div class="features-slides owl-carousel">
                      
 					 <?php
-					 $result=select("select * from items where category='FruitVegetables'");
+					 $result=select("select * from items where category='Fruits'");
 					 while($r=mysqli_fetch_array($result))
 					 {
 						 extract($r);
@@ -220,7 +220,7 @@ $('.navbar-light .dmenu').hover(function () {
                     <div class="features-slides owl-carousel">
                      
 					 <?php
-					 $result=select("select * from items where category='FoodgrainsoilMasala'");
+					 $result=select("select * from items where category='Cereals'");
 					 while($r=mysqli_fetch_array($result))
 					 {
 						 extract($r);
@@ -257,7 +257,7 @@ $('.navbar-light .dmenu').hover(function () {
                     <div class="features-slides owl-carousel">
                      
 					 <?php
-					 $result=select("select * from items where category='BakerycakesDairy'");
+					 $result=select("select * from items where category='Dairy'");
 					 while($r=mysqli_fetch_array($result))
 					 {
 						 extract($r);
@@ -294,7 +294,7 @@ $('.navbar-light .dmenu').hover(function () {
                     <div class="features-slides owl-carousel">
                      
 					 <?php
-					 $result=select("select * from items where category='SnacksBrandedFoods'");
+					 $result=select("select * from items where category='Vegetables'");
 					 while($r=mysqli_fetch_array($result))
 					 {
 						 extract($r);
@@ -368,7 +368,7 @@ $('.navbar-light .dmenu').hover(function () {
                     <div class="features-slides owl-carousel">
                      
 					 <?php
-					 $result=select("select * from items where category='Cleaninghousehold'");
+					 $result=select("select * from items where category='AnimalFeeds'");
 					 while($r=mysqli_fetch_array($result))
 					 {
 						 extract($r);

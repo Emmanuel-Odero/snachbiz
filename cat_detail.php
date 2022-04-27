@@ -15,7 +15,7 @@ $result=select($q);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    
-    <title>Dorne - Directory &amp; Listing Template | Listing</title>
+    <title>SNACH - Directory &amp; Listing Template | Listing</title>
 
     
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -57,7 +57,7 @@ $result=select($q);
             <div class="row h-100">
                 <div class="col-12 h-100">
                     <nav class="h-100 navbar navbar-expand-lg">
-					 <a class="navbar-brand" href="index.php">ONLINE ELECTRONIC SHOP</a>
+					 <a class="navbar-brand" href="index.php">ONLINE Food SHOP</a>
                        
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dorneNav" aria-controls="dorneNav" aria-expanded="false" aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
                         <!-- Nav -->
